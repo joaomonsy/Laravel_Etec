@@ -19,12 +19,17 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/', function (){
-    return view('Inicio');
+    return view('inicio');
 });
 
 Route::get('/departamentos', function (){
     return view('departamentos');
 });
+
+Route::get('/cursos', function (){
+    return view('cursos');
+});
+
 
 Route::get('/instituicao', function (){
     return view('instituicao');

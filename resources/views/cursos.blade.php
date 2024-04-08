@@ -39,73 +39,73 @@
 <body>
 <header class="bg-black">
 <nav class="bg-black">
-        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div class="relative flex h-16 items-center justify-between">
-                <div class="logo-container">
-                    <a href="/">
-                        <h1 class="text-red-800 font-bold text-3xl sm:text-4xl lg:text-2xl">Etec</h1>
-                        <span class="text-gray-300 px-2 font-normal sm:inline">Zona Leste</span>
-                    </a>
-                </div>
-                <div class="sm:hidden">
-                <button type="button" class="mobile-menu-button relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-red-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white " aria-controls="navigation-menu" aria-expanded="false" id="mobile-menu-button">
-                        <span class="absolute -inset-0.5"></span>   
-                        <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                      </svg>
-                      <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </button>
-                </div>
-                <div class="navigation-menu hidden sm:flex flex-1 justify-end items-center space-x-4 relative" id="navigation-menu">
-                    <a href="/" class="hover:bg-red-600 text-gray-300 rounded-md px-3 py-2 text-sm font-medium ml-5" aria-current="page">Início</a>
-                    <div class="relative">
-                        <button type="button" class="dropdown-toggle py-2 px-3 hover:bg-red-600 flex items-center gap-2 rounded ml:gap-0 ">
-                            <span class="pointer-events-none select-none text-gray-300 font-medium text-sm">Cursos</span>
-                            <svg class="w-3 h-3 pointer-events-none text-white "
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                            </svg>
-                        </button>
-                        <div
-                            class="dropdown-menu absolute z-10 hidden bg-black text-white rounded-b-lg pb-2 w-48">
-                            <a href="{{ url('cursosAdm') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Administração</a>
-                            <a href="{{ url('cursosCont') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Contabilidade</a>
-                            <a href="{{ url('cursosAds') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Desenvolvimento de Sistemas</a>
-                            <a href="{{ url('cursosLog') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Logística</a>
-                            <a href="{{ url('cursosRH') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Recursos Humanos</a>
-                            <a href="{{ url('cursosSJ') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Serviços Jurídicos</a>
-                        </div>
-                    </div>
-                    <a href="{{ url('instituicao') }}"
-                        class="text-gray-300 hover:bg-red-600 rounded-md px-3 py-2 text-sm font-medium">Instituição</a>
-                    <a href="{{ url('departamentos') }}"
-                        class="text-gray-300 hover:bg-red-600 rounded-md px-3 py-2 text-sm font-medium">Departamentos</a>
-                    <a href="{{ url('oportunidades') }}"
-                        class="text-gray-300 bg-red-600 rounded-md px-3 py-2 text-sm font-medium">Oportunidades</a>
-                    <a href="{{ url('vestibulinho') }}"
-                        class="text-gray-300 hover:bg-red-600 rounded-md px-3 py-2 text-sm font-medium">Vestibulinho</a>
-                </div>
-            </div>
+  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div class="relative flex h-16 items-center justify-between">
+      <!-- Container para a logo -->
+      <div class="logo-container">
+        <a href="/"> 
+        <h1 class="text-red-800 font-bold text-3xl">Etec</h1>
+        <span class="text-gray-300 px-6 font-normal">Zona Leste</span>
+      </a>
+      </div>
+      <div class="sm:hidden">
+        <!-- Mobile menu button-->
+        <button type="button" class="menu-button relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-red-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+          <span class="absolute -inset-0.5"></span>
+          <span class="sr-only">Open main menu</span>
+          <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class=" sm:flex flex-1 justify-end items-center">
+        <div class="nav-links flex space-x-4">
+          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+          <a href="{{ url('/') }}" class="hover:bg-red-600 text-gray-300 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Início</a>
+          <div class="relative">
+            <button type="button" class="dropdown-toggle hover:bg-red-600 py-2 px-3 flex items-center gap-2 rounded">
+              <span class="pointer-events-none select-none  text-gray-300 font-medium text-sm ">Cursos</span>
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+            </button>
+          </div>
+          <a href="{{ url('instituicao') }}" class="text-gray-300 hover:bg-red-600  rounded-md px-3 py-2 text-sm font-medium">Instituição</a>
+          <a href="{{ url('departamentos') }}" class="text-gray-300 hover:bg-red-600  rounded-md px-3 py-2 text-sm font-medium">Departamentos</a>
+          <a href="{{ url('oportunidades') }}" class="text-gray-300 hover:bg-red-600  rounded-md px-3 py-2 text-sm font-medium">Oportunidades</a>
+          <a href="{{ url('vestibulinho') }}" class="text-gray-300 hover:bg-red-600  rounded-md px-3 py-2 text-sm font-medium">Vestibulinho</a>
         </div>
-    </nav>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu, show/hide based on menu state. -->
+  <div class="sm:hidden" id="mobile-menu">
+    <div class="space-y-1 px-2 pb-3 pt-2">
+      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+      <a href="#" class="bg-red-600 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Início</a>
+      <div class="dropdown-menu absolute z-10 hidden bg-black text-white rounded-b-lg pb-2 w-48">
+          </div>
+          <a href="#" class="text-gray-300 hover:bg-red-600  rounded-md px-3 py-2 text-sm font-medium">Instituição</a>
+          <a href="#" class="text-gray-300 hover:bg-red-600  rounded-md px-3 py-2 text-sm font-medium">Departamentos</a>
+          <a href="#" class="text-gray-300 hover:bg-red-600  rounded-md px-3 py-2 text-sm font-medium">Oportunidades</a>
+          <a href="#" class="text-gray-300 hover:bg-red-600  rounded-md px-3 py-2 text-sm font-medium">Vestibulinho</a>
+    </div>
+  </div>
+</nav>
 
 <!-- ===================== Header Sections =====================-->
 
 <div class="relative isolate overflow-hidden bg-black py-24 sm:py-32 dark:bg-white-dark min-h-[630px] after:content-[''] after:h-full after:w-full after:absolute after:left-0 after:top-0 after:bg-[#1414149c] ">
-  <img src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/11/sean-pollock-PhYq704ffdA-unsplash-1.png" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center after:bg-[#1414149c]">
+  <img src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/11/tyler-franta-iusJ25iYu1c-unsplash-scaled.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center after:bg-[#1414149c]">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
-      <h2 class="font-bold text-white text-sm mb-10 z-50 mt-24 ml-14">OPORTUNIDADES</h2>
-      <p class="text-white text-3xl -bottom-2 relative tracking-tight font-bold z-50 ml-14">Oportunidades de emprego incríveis aguardam por você. Encontre sua </br> trajetória de sucesso hoje!</p>
+      <h2 class="font-bold text-white text-sm mb-10 z-50 mt-24 ml-14">CURSOS</h2>
+      <p class="text-white text-3xl -bottom-2 relative tracking-tight font-bold z-50 ml-14">Desvendando os Segredos do Mundo </br> Empresarial </br> – Conectando Passado, Presente e Futuro!</p>
     </div>
     <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
@@ -117,44 +117,36 @@
 <!-- ===================== About 1 =====================-->
 
 <div class="flex flex-col justify-center md:flex-row items-center mt-5 text-white p-8 md:px-20">
-  <div class="md:w-1/2 overflow-hidden rounded-xl max-w-[467px] mx-auto md:order-2 mr-8">
-        <img class="w-full h-full object-cover" src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/11/Etec_Pq-Belem_vestibulinho-2022_fotog-Roberto-Sungi127-scaled-1.webp" alt="Imagem de uma estrutura arquitetônica">
+    <div class="md:w-1/2 overflow-hidden rounded-xl max-w-[600px] mx-auto md:order-2">
+        <img class="w-full h-full object-cover mt-10 md:mt-0 rounded-xl ml-3" src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/11/Administracao_GettyImages.jpg" alt="Imagem de uma estrutura arquitetônica">
     </div>
-    <div class="md:w-6/12 md:ml-1 md:order-1">
-        <h1 class="text-2xl font-bold mb-4" style="color: #E1E1D4">Concurso Público</h1>
-        <p class="font-normal text-base text-wrap mb-8 text-justify" style="color: #CDC0C0">Estão em andamento concursos públicos para contratação de 2,7 mil docentes e servidores administrativos para atuar em Escolas Técnicas (Etecs), Faculdades de Tecnologia (Fatecs) do Estado e na Administração Central do Centro Paula Souza (CPS). Os certames foram autorizados em junho de 2022 e as admissões ocorrem em 2023. O calendário do concurso para os cargos administrativos e os editais para docentes, que são liberados em lotes, estão disponíveis nos links abaixo. </br> </br> A previsão é contratar 993 professores de Ensino Médio e Técnico, 594 docentes de Ensino Superior, 887 agentes técnicos e administrativos, 227 bibliotecários e 6 especialistas em planejamento educacional. Foi autorizado, ainda, o aproveitamento de 80 vagas de professores remanescentes de concursos anteriores.</p>
-        <a href="#" class="bg-red-700 sm:text-lg rounded-full px-5 text-center font-bold">SAIBA MAIS <span aria-hidden="true">&rarr;</span></a>
-      </div>
+    <div class="md:w-1/2 md:ml-10 md:order-1">
+        <h1 class="text-3xl font-bold mb-4" style="color: #E1E1D4">Sobre</h1>
+        <p class="font-normal text-base mb-7 text-justify" style="color: #CDC0C0">Como funcionam as organizações, desde empresas privadas até ONGs, passando por órgãos públicos, comércio e indústria. O estudante vai precisar de conhecimentos de língua portuguesa, matemática, história e geografia para compreender os principais assuntos do curso, como história, evolução das organizações ao longo do tempo, contabilidade, leis que regulam o funcionamento das empresas e redação de documentos. </br> </br>  O aluno vai aprender ainda a analisar as chances de um negócio ou produto ser bem-sucedido e o comportamento do consumidor. Estudará também técnicas de atendimento ao cliente, empreendedorismo (iniciativas para realizar novos negócios) e como uma organização planeja alcançar seus objetivos e define suas metas para o futuro. </br> </br>O candidato que ingressar no curso técnico, na modalidade AMS, poderá prosseguir os estudos em uma Fatec no curso superior de tecnologia em  <a href="#"><span class="text-blue-400">Processos Gerenciais.</span></a> </br> </p>
+        <a href="#" class="bg-red-700 rounded-full px-10 p-1 font-medium inline-block mt-4 md:mt-0">ENTRE EM CONTATO <span aria-hidden="true">&rarr;</span></a>
+    </div>
 </div>
 
 <!-- ===================== About 2 =====================-->
 
 <div class="flex flex-col justify-center md:flex-row items-center mt-5 text-white p-8 md:px-20">
-  <div class="md:w-1/2 overflow-hidden rounded-xl max-w-[520px] mx-auto md:order-1 mr-8">
-        <img class="w-full h-full object-cover" src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/11/buildings-1842205_640.jpg" alt="Imagem de uma estrutura arquitetônica">
+    <div class="md:w-full md:max-w-2xl md:mx-auto">
+        <h1 class="text-3xl font-bold mb-4 text-center " style="color: #E1E1D4">Área de Atuação</h1>
+        <p class="font-normal text-base mb-7 text-justify" style="color: #CDC0C0">O técnico pode trabalhar em vários departamentos. No setor de compras, por exemplo, pode elaborar pedidos de compra de produtos, cadastrar fornecedores assim como conferir a entrega das mercadorias adquiridas. Na área de produção, pode fazer planilhas de controle de processos e produtos, registrando quais já foram produzidos e em qual quantidade. </br> </br> No departamento de vendas, também pode elaborar planilhas para acompanhar o desempenho das vendas, cadastrar clientes, preencher notas fiscais e gerar boletos bancários. No setor de Recursos Humanos, o técnico pode trabalhar calculando salários e benefícios dos funcionários e auxiliando nos processos de contratação e demissão de pessoal. Em qualquer área, pode atender clientes e fornecedores e redigir documentos, como e-mails, memorandos e atas. </br> </br>  </p>
     </div>
-    <div class="md:w-6/12 md:ml-1 md:order-1">
-        <h1 class="text-2xl font-bold mb-4" style="color: #E1E1D4">Processo Seletivo Simplificado para Auxiliar de Docente</h1>
-        <p class="font-normal text-base text-wrap mb-8 text-justify" style="color: #CDC0C0">Prepare-se para embarcar em uma jornada de ensino e aprendizado! O Processo Seletivo Simplificado para Auxiliar de Docente nas renomadas Escolas Técnicas Estaduais (ETECs) ou Faculdades de Tecnologia (FATECs) está com inscrições abertas.</br> </br> Participe deste processo seletivo e compartilhe seu conhecimento, experiência e paixão pelo ensino. As inscrições estão disponíveis para aqueles que desejam desempenhar um papel fundamental na educação técnica do Estado de São Paulo.</p>
-        <a href="#" class="bg-red-700 sm:text-lg rounded-full px-5 text-center font-bold">INSCREVA-SE <span aria-hidden="true">&rarr;</span></a>
-      </div>
 </div>
 
 <!-- ===================== About 3 =====================-->
 
-<div class="flex flex-col justify-center md:flex-row items-center mt-5 text-white p-8 md:px-20">
-    <div class="md:w-1/2 overflow-hidden rounded-xl max-w-[467px] mx-auto md:order-2 gap-20">
-        <img class="w-full h-full object-cover" src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/11/Group-3-_1_.webp" alt="Imagem de uma estrutura arquitetônica">
+<div class="flex flex-col justify-center md:flex-row items-center mt-5 text-white pt-10 md:pt-0 px-8 md:px-20">
+    <div class="md:w-1/2 overflow-hidden rounded-xl max-w-[467px] mx-auto md:order-1">
+        <img class="w-full h-full object-cover rounded-md" src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/11/cytonn-photography-n95VMLxqM2I-unsplash-1-1.jpg" alt="Imagem de uma estrutura arquitetônica">
     </div>
-    <div class="md:w-6/12 md:ml-1 md:order-1">
-        <h1 class="text-2xl font-bold mb-4" style="color: #E1E1D4">Programa Aprendiz Paulista</h1>
-        <p class="font-normal text-base text-wrap mb-8 text-justify" style="color: #CDC0C0">Sua chance de ingressar no mercado de trabalho! Se você tem entre 14 e 24 anos, está matriculado em cursos técnicos profissionalizantes do Centro Estadual de Educação Tecnológica Paula Souza e reside em São Paulo, esta é a sua chance de conquistar uma vaga de aprendizagem em empresas parceiras. </br> </br> Benefícios incluem salário mínimo por hora, vale transporte, férias remuneradas, FGTS e registro em carteira. Esteja preparado para uma jornada de aprendizado prático e teórico. Junte-se a nós e construa o seu futuro!</p>
-        <a href="#" class="bg-red-700 sm:text-lg rounded-full px-5  text-center font-bold">SAIBA MAIS <span aria-hidden="true">&rarr;</span></a>
-      </div>
+    <div class="md:w-1/2 md:ml-10 md:order-2">
+        <h1 class="text-2xl font-bold mb-4 text-justify " style="color: #E1E1D4">Onde Trabalhar</h1>
+        <p class="font-normal text-base text-justify" style="color: #CDC0C0">Empresas privadas, seja de comércio, serviço ou indústria, órgãos públicos (prefeituras, secretarias de governo, ministérios do governo federal etc.) e ONGs. </br></br>O candidato que ingressar no curso técnico, na modalidade AMS, poderá prosseguir os estudos em uma Fatec no curso superior de tecnologia em  <a href="#"><span class="text-blue-400">Processos Gerenciais.</span></a> 
+    </div>
 </div>
-
-
-
 
 <!-- ===================== Footer =====================-->
 <footer class="bg-gray-100 dark:bg-black">
