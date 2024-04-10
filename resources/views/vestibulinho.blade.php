@@ -37,8 +37,8 @@
 
 
 <body>
-<header class="bg-black">
-<nav class="bg-black">
+<header class="bg-gray-950">
+<nav class="bg-gray-900">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-between">
                 <div class="logo-container">
@@ -61,29 +61,9 @@
                 <div class="navigation-menu hidden sm:flex flex-1 justify-end items-center space-x-4 relative" id="navigation-menu">
                     <a href="/" class="hover:bg-red-600 text-gray-300 rounded-md px-3 py-2 text-sm font-medium ml-5" aria-current="page">Início</a>
                     <div class="relative">
-                        <button type="button" class="dropdown-toggle py-2 px-3 hover:bg-red-600 flex items-center gap-2 rounded ml:gap-0 ">
+                        <button type="button" class="py-2 px-3 hover:bg-red-600 flex items-center gap-2 rounded ml:gap-0 ">
                             <span class="pointer-events-none select-none text-gray-300 font-medium text-sm">Cursos</span>
-                            <svg class="w-3 h-3 pointer-events-none text-white "
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                            </svg>
                         </button>
-                        <div
-                            class="dropdown-menu absolute z-10 hidden bg-black text-white rounded-b-lg pb-2 w-48">
-                            <a href="{{ url('cursosAdm') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Administração</a>
-                            <a href="{{ url('cursosCont') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Contabilidade</a>
-                            <a href="{{ url('cursosAds') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Desenvolvimento de Sistemas</a>
-                            <a href="{{ url('cursosLog') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Logística</a>
-                            <a href="{{ url('cursosRH') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Recursos Humanos</a>
-                            <a href="{{ url('cursosSJ') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Serviços Jurídicos</a>
-                        </div>
                     </div>
                     <a href="{{ url('instituicao') }}"
                         class="text-gray-300 hover:bg-red-600 rounded-md px-3 py-2 text-sm font-medium">Instituição</a>
@@ -101,11 +81,11 @@
 <!-- ===================== Header Sections =====================-->
 
 <div class="relative isolate overflow-hidden bg-black py-24 sm:py-32 dark:bg-white-dark min-h-[630px] after:content-[''] after:h-full after:w-full after:absolute after:left-0 after:top-0 after:bg-[#1414149c] ">
-  <img src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/11/Fatec-Vestibular_dicas-de-prova_-fot-Roberto-Sungi-scaled-1.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center after:bg-[#1414149c]">
+  <img src="https://www.open.edu.au/-/media/images/your-studies/sitting-exam-pen-paper.jpg?h=2964&iar=0&w=5269&rev=73f97a16007746a59b626cc6566d2ec0&extension=webp&hash=D42D2C7E0D6DDAD532796DEBEC0B5E20" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center after:bg-[#1414149c]">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
       <h2 class="font-bold text-white text-sm mb-10 z-50 mt-24 ml-20">VESTIBULINHO</h2>
-      <p class="text-white text-3xl bottom-4 relative tracking-tight font-bold z-50 ml-20 mb-4">Marcado para 10 de dezembro, o Vestibulinho das Escolas Técnicas Estaduais (Etecs)</p>
+      <p class="text-white text-3xl bottom-4 relative tracking-tight font-bold z-50 ml-20 mb-4">O Vestibulhinho das Escolas Técnicas Estaduais Ocorrem de Forma Semestral</p>
       <a href="#" class="bg-red-600 sm:text-sm rounded-full px-6 p-2 font-medium relative z-50 ml-20 text-white">INSCREVA-SE <span aria-hidden="true">&rarr;</span></a>
     </div>
     <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
@@ -152,7 +132,7 @@
 </div>
 
 <!-- ===================== Footer =====================-->
-<footer class="bg-gray-100 dark:bg-black">
+<footer class="bg-gray-900">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="flex justify-center text-gray-600 dark:text-teal-300">
             <div class="logo-container-2 text-center">

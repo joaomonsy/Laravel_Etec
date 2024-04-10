@@ -37,8 +37,8 @@
 
 
 <body>
-<header class="bg-black">
-<nav class="bg-black">
+<header class="bg-gray-900">
+<nav class="bg-gray-950">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-between">
                 <div class="logo-container">
@@ -63,27 +63,9 @@
                     <div class="relative">
                         <button type="button" class="dropdown-toggle py-2 px-3 hover:bg-red-600 flex items-center gap-2 rounded ml:gap-0 ">
                             <span class="pointer-events-none select-none text-gray-300 font-medium text-sm">Cursos</span>
-                            <svg class="w-3 h-3 pointer-events-none text-white "
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                             </svg>
                         </button>
-                        <div
-                            class="dropdown-menu absolute z-10 hidden bg-black text-white rounded-b-lg pb-2 w-48">
-                            <a href="{{ url('cursosAdm') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Administração</a>
-                            <a href="{{ url('cursosCont') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Contabilidade</a>
-                            <a href="{{ url('cursosAds') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Desenvolvimento de Sistemas</a>
-                            <a href="{{ url('cursosLog') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Logística</a>
-                            <a href="{{ url('cursosRH') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Recursos Humanos</a>
-                            <a href="{{ url('cursosSJ') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Serviços Jurídicos</a>
-                        </div>
                     </div>
                     <a href="{{ url('instituicao') }}"
                         class="text-gray-300 bg-red-600 rounded-md px-3 py-2 text-sm font-medium">Instituição</a>
@@ -100,8 +82,8 @@
 
 <!-- ===================== Header Sections =====================-->
 
-<div class="relative isolate overflow-hidden bg-black py-24 sm:py-32 dark:bg-white-dark min-h-[630px] after:content-[''] after:h-full after:w-full after:absolute after:left-0 after:top-0 after:bg-[#1414149c] ">
-  <img src="https://www.eteczonaleste.com.br/wp-content/uploads/2024/03/fcff4757-7c3e-44da-b856-bee510dfe693-1.png" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center after:bg-[#1414149c]">
+<div class="relative isolate overflow-hidden bg-gray-950 py-24 sm:py-32 dark:bg-white-dark min-h-[630px] after:content-[''] after:h-full after:w-full after:absolute after:left-0 after:top-0 after:bg-[#1414149c] ">
+  <img src="{{ asset('img/sala.png')}}" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center after:bg-[#1414149c]">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
       <h2 class="font-bold text-white text-sm mb-10 z-50 mt-24 ml-14">INSTITUIÇÃO</h2>
@@ -119,13 +101,35 @@
 <div class="flex flex-col justify-center md:flex-row items-center mt-5 text-white p-8 md:px-20">
     <div class="md:w-12/12 md:ml-10 md:order-1">
         <h1 class="text-3xl font-bold mb-4 text-center" style="color: #E1E1D4">ETEC Zona Leste</h1>
-        <p class="font-normal text-base mb-7 text-justify" style="color: #CDC0C0">Localizada estrategicamente na Avenida Águia de Haia, na Zona Leste de São Paulo, a Etec Zona Leste se destaca como um importante polo educacional na região. Sua história remonta ao compromisso com a excelência educacional e o desenvolvimento profissional dos estudantes. </br> </br> Fundada em 2008, a Etec Zona Leste rapidamente se estabeleceu como uma instituição de referência no ensino técnico e tecnológico. Desde o início, sua missão foi proporcionar oportunidades de aprendizado que preparassem os alunos para os desafios do mercado de trabalho, além de incentivá-los a buscar a excelência acadêmica. </br> </br> Ao longo dos anos, a escola tem evoluído e se adaptado às demandas da sociedade e do mercado, ampliando sua oferta de cursos e modernizando suas instalações. Com uma equipe dedicada de professores e funcionários, a Etec Zona Leste oferece uma variedade de cursos técnicos em áreas como informática, administração, eletrônica, entre outros, proporcionando aos alunos uma formação sólida e atualizada. </br></br> Além da excelência acadêmica, a Etec Zona Leste também se destaca por suas atividades extracurriculares, que incluem projetos de pesquisa, competições acadêmicas, eventos culturais e esportivos. Essas atividades complementam o currículo escolar, promovendo o desenvolvimento integral dos estudantes e estimulando o trabalho em equipe, a liderança e a criatividade.</p>
+        <p class="font-normal text-base mb-7 text-justify" style="color: #CDC0C0">Nossa Infraestrutura
+
+Pátio
+
+O pátio da instituição é um verdadeiro refúgio. Árvores, flores e plantas dão ao ambiente uma atmosfera de serenidade e frescor. É um espaço que convida os alunos a desfrutarem do ar livre enquanto se dedicam às suas atividades acadêmicas e sociais. O pátio principal também foi projetado para promover a interação e o convívio entre os estudantes. Com mesas distribuídas, o espaço oferece oportunidades para uma variedade de atividades sociais e recreativas, desde jogos de tabuleiro que estimulam o raciocínio e a cooperação, até partidas acirradas de pingue-pongue e pebolim que promovem a competição saudável e o espírito de equipe.
+
+Cozinha <br><br>
+
+Salas de Aula<br>
+
+Biblioteca<br>
+
+Laboratórios<br>
+
+Prédio Administrativo<br>
+
+Sala Maker<br><br>
+
+Com seu espaço voltado à tecnologia e construção de projetos, a Sala Maker possui notebooks, impressoras 3D, drones, óculos de realidade aumentada e ferramentas para a construção de projetos manuais. Além de ser um ótimo ambiente para estudar com os colegas, o ambiente possui uma diversidade de mesas e cadeiras dispostas, assim comportando um bom número de alunos e seus respectivos projetos.
+
+Quadras
+
+O espaço oferece duas quadras poliesportivas aos estudantes, sendo uma ao ar livre, para o aproveitamento de dias ensolarados e, outra coberta, garantindo a prática das atividades mesmo em condições climáticas não-favoráveis. Essas instalações são utilizadas de maneira versátil, servindo como cenário nas aulas dinâmicas de Educação Física ou em eventos como gincanas, interclasses, festas juninas, pós-aulas e feiras tecnológicas.</p>
       </div>
 </div>
 
 
 <!-- ===================== Footer =====================-->
-<footer class="bg-gray-100 dark:bg-black">
+<footer class="bg-gray-950">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="flex justify-center text-gray-600 dark:text-teal-300">
             <div class="logo-container-2 text-center">

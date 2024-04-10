@@ -37,8 +37,8 @@
 
 
 <body>
-<header class="bg-black">
-<nav class="bg-black">
+<header class="bg-gray-950">
+<nav class="bg-gray-900">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-between">
                 <div class="logo-container">
@@ -63,27 +63,7 @@
                     <div class="relative">
                         <button type="button" class="dropdown-toggle py-2 px-3 hover:bg-red-600 flex items-center gap-2 rounded ml:gap-0 ">
                             <span class="pointer-events-none select-none text-gray-300 font-medium text-sm">Cursos</span>
-                            <svg class="w-3 h-3 pointer-events-none text-white "
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                            </svg>
                         </button>
-                        <div
-                            class="dropdown-menu absolute z-10 hidden bg-black text-white rounded-b-lg pb-2 w-48">
-                            <a href="{{ url('cursosAdm') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Administração</a>
-                            <a href="{{ url('cursosCont') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Contabilidade</a>
-                            <a href="{{ url('cursosAds') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Desenvolvimento de Sistemas</a>
-                            <a href="{{ url('cursosLog') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Logística</a>
-                            <a href="{{ url('cursosRH') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Recursos Humanos</a>
-                            <a href="{{ url('cursosSJ') }}"
-                                class="block px-6 py-2 hover:bg-red-600 rounded-2xl">Serviços Jurídicos</a>
-                        </div>
                     </div>
                     <a href="{{ url('instituicao') }}"
                         class="text-gray-300 hover:bg-red-600 rounded-md px-3 py-2 text-sm font-medium">Instituição</a>

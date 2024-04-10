@@ -101,7 +101,7 @@
 <!-- ===================== Header Sections =====================-->
 
 <div class="relative isolate overflow-hidden bg-black py-24 sm:py-32 dark:bg-white-dark min-h-[630px] after:content-[''] after:h-full after:w-full after:absolute after:left-0 after:top-0 after:bg-[#1414149c] ">
-  <img src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/11/tyler-franta-iusJ25iYu1c-unsplash-scaled.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center after:bg-[#1414149c]">
+  <img src="https://cdn-cghoj.nitrocdn.com/PyrWGAOFRmSINGLRywhVPHzBBgVcyRcQ/assets/images/optimized/rev-1f573a2/www.mancosa.co.za/wp-content/uploads/2019/04/shutterstock_1337445926.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center after:bg-[#1414149c]">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
       <h2 class="font-bold text-white text-sm mb-10 z-50 mt-24 ml-14">CURSOS</h2>
@@ -118,11 +118,21 @@
 
 <div class="flex flex-col justify-center md:flex-row items-center mt-5 text-white p-8 md:px-20">
     <div class="md:w-1/2 overflow-hidden rounded-xl max-w-[600px] mx-auto md:order-2">
-        <img class="w-full h-full object-cover mt-10 md:mt-0 rounded-xl ml-3" src="https://www.eteczonaleste.com.br/wp-content/uploads/2023/11/Administracao_GettyImages.jpg" alt="Imagem de uma estrutura arquitetônica">
+        <img class="w-full h-full object-cover mt-10 md:mt-0 rounded-xl ml-3" src=https://www.lawdonut.co.uk/business/sites/lawdonut-business/files/styles/landing_pages_lists_250/public/production/image/companyadministrationfaqs_140073595.jpg?itok=_qWQIalm" alt="Imagem de uma estrutura arquitetônica">
     </div>
     <div class="md:w-1/2 md:ml-10 md:order-1">
         <h1 class="text-3xl font-bold mb-4" style="color: #E1E1D4">Sobre</h1>
-        <p class="font-normal text-base mb-7 text-justify" style="color: #CDC0C0">Como funcionam as organizações, desde empresas privadas até ONGs, passando por órgãos públicos, comércio e indústria. O estudante vai precisar de conhecimentos de língua portuguesa, matemática, história e geografia para compreender os principais assuntos do curso, como história, evolução das organizações ao longo do tempo, contabilidade, leis que regulam o funcionamento das empresas e redação de documentos. </br> </br>  O aluno vai aprender ainda a analisar as chances de um negócio ou produto ser bem-sucedido e o comportamento do consumidor. Estudará também técnicas de atendimento ao cliente, empreendedorismo (iniciativas para realizar novos negócios) e como uma organização planeja alcançar seus objetivos e define suas metas para o futuro. </br> </br>O candidato que ingressar no curso técnico, na modalidade AMS, poderá prosseguir os estudos em uma Fatec no curso superior de tecnologia em  <a href="#"><span class="text-blue-400">Processos Gerenciais.</span></a> </br> </p>
+        <p class="font-normal text-base mb-7 text-justify" style="color: #CDC0C0">A Escola Técnica Estadual (ETEC) é uma instituição renomada que oferece uma variedade de cursos técnicos e de ensino médio, preparando os alunos para ingressarem no mercado de trabalho com habilidades práticas e conhecimento teórico. Entre os cursos oferecidos pela ETEC, destacam-se Administração, Recursos Humanos, Logística e Desenvolvimento de Sistemas.
+
+O curso de Administração oferecido pela ETEC proporciona aos estudantes uma base sólida em gestão empresarial, abrangendo temas como planejamento estratégico, gestão financeira, marketing e recursos humanos. Os alunos têm a oportunidade de aprender na prática, através de estágios supervisionados e projetos integradores, desenvolvendo habilidades essenciais para atuarem em diferentes áreas administrativas.
+
+O curso de Recursos Humanos prepara os alunos para atuarem no gerenciamento de pessoas dentro das organizações. Ao longo do curso, os estudantes adquirem conhecimentos sobre recrutamento e seleção, treinamento e desenvolvimento, gestão de benefícios e legislação trabalhista. Com uma abordagem prática e atualizada, os alunos estão aptos a lidar com os desafios do mercado de trabalho na área de recursos humanos.
+
+A Logística é uma área fundamental para o funcionamento eficiente das empresas, e o curso oferecido pela ETEC capacita os alunos para atuarem nesse campo. Os estudantes aprendem sobre planejamento e controle de estoques, transporte e distribuição, gestão da cadeia de suprimentos e logística reversa. Com uma formação sólida e prática, os alunos estão preparados para contribuir para a eficiência operacional das empresas em diversos setores.
+
+O curso de Desenvolvimento de Sistemas da ETEC prepara os alunos para atuarem no desenvolvimento de software, sistemas e aplicativos. Ao longo do curso, os estudantes aprendem linguagens de programação, técnicas de análise e projeto de sistemas, banco de dados, além de conceitos de segurança da informação e desenvolvimento ágil. Com uma abordagem prática e focada no mercado de trabalho, os alunos estão aptos a trabalhar em empresas de tecnologia, startups e outros setores que demandem profissionais na área de desenvolvimento de sistemas.
+
+Em resumo, os cursos oferecidos pela ETEC nas áreas de Administração, Recursos Humanos, Logística e Desenvolvimento de Sistemas proporcionam uma formação sólida e prática, preparando os alunos para enfrentarem os desafios do mercado de trabalho e contribuírem para o desenvolvimento das empresas e da sociedade como um todo.</p>
         <a href="#" class="bg-red-700 rounded-full px-10 p-1 font-medium inline-block mt-4 md:mt-0">ENTRE EM CONTATO <span aria-hidden="true">&rarr;</span></a>
     </div>
 </div>
